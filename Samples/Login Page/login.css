@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.body{
+    height: 100vh;
+    background-color:rgb(233, 223, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    background-color: white;
+    display: flex;
+    height: 500px;
+    width: 900px;
+    border-radius: 10px;
+
+}
+
+.inner-div-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex:0.5;
+}
+
+.inner-div-right{
+    flex: 0.5;
+    background-image: url(../../Images/login_images/image.jpg);
+    background-size: cover;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+.div1{
+    display: flex;
+    margin: 0px 85px 20px 85px;
+}
+
+.div2{
+    display: flex;
+    margin: 0px 85px 20px 85px;
+}
+
+.div3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 85px 20px 85px;
+}
+
+.div4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 85px 40px 85px;
+}
+
+
+.input1{
+    padding: 10px;
+    width: 100%;
+    color: gray;
+    outline: none;
+    border: 1px solid rgb(233, 223, 212);
+    border-radius: 0px 5px 5px 0px;
+}
+
+.input2{
+    padding: 10px;
+    width: 100%;
+    color: gray;
+    outline: none;
+    border: 1px solid rgb(233, 223, 212);
+    border-radius: 0px 5px 5px 0px;
+}
+
+.icon1{
+    background-color: white;
+    border: 1px solid rgb(233, 223, 212);
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.icon2{
+    background-color: white;
+    border: 1px solid rgb(233, 223, 212);
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.icon3{
+    height: 20px;
+    width: 30px;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: rgb(5, 5, 61);
+    margin-right: 10px;
+}
+
+.icon4{
+    height: 20px;
+    width: 30px;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: rgb(59, 59, 202);
+    margin-right: 10px;
+}
+
+.icon5{
+    height: 20px;
+    width: 30px;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: rgb(173, 9, 9);
+    margin-right: 10px;
+}
+
+.checkbox{
+    margin-right: 5px;
+}
+
+.par1{
+    margin-right: 60px;
+    color: gray;
+}
+
+.span1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button1{
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    background-color: rgb(79, 79, 245);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 8px 12px 8px 12px;
+    color: white;
+}
+
+.button2{
+    display: inline-flex;
+    cursor: pointer;
+    align-items: center;
+    background-color: rgb(19, 19, 102);
+    margin: 0px 85px 20px 85px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.button3{
+    display: inline-flex;
+    cursor: pointer;
+    align-items: center;
+    background-color: rgb(81, 81, 241);
+    margin: 0px 85px 20px 85px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.button4{
+    display: inline-flex;
+    cursor: pointer;
+    align-items: center;
+    background-color: rgb(252, 7, 7);
+    margin: 0px 85px 0px 85px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.link1{
+    color: rgb(81, 81, 241);
+}
+
+.link2{
+    color: gray;
+}
+
+.par2{
+    margin-left: 25px;
+}
+
+.par3{
+    margin-left: 25px;
+}
+
+.par4{
+    margin-left: 25px;
+}
+
+h4{
+    color: gray;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: larger;
+}
+
+@media only screen and (max-width:700px){
+    .body{
+        height: 100vh;
+        background-color:rgb(233, 223, 212);
+        display: flex;
+    }
+    
+    .main{
+        background-color: white;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 90vh;
+        width: 500px;
+        border-radius: 10px;
+        margin: 40px;
+    
+    }
+    
+    .inner-div-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex:0.6;
+        margin-bottom: 30px;
+    }
+    
+    .inner-div-right{
+        flex: 0.4;
+
+        background-image: url(../../Images/login_images/image.jpg);
+        background-size: cover;
+        border-radius: 10px 10px 0px 0px;
+        margin-bottom: 20px;
+    
+    }
+
+    .div1{
+        display: flex;
+        margin: 0px 40px 20px 40px;
+    }
+    
+    .div2{
+        display: flex;
+        margin: 0px 40px 20px 40px;
+    }
+    
+    .div3{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 40px 20px 40px;
+    }
+    
+    .div4{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 40px 20px 40px;
+    }
+    
+    .button2{
+        margin: 0px 40px 20px 40px; 
+    }
+    
+    .button3{
+        margin: 0px 40px 20px 40px;
+    }
+    
+    .button4{
+        margin: 0px 40px 20px 40px;
+    }
+
+    .par2{
+        margin-left: 0px;
+    }
+    
+    .par3{
+        margin-left: 0px;
+    }
+    
+    .par4{
+        margin-left: 0px;
+    }
+}

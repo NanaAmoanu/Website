@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.body{
+    margin: 30px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-section{
+  display: flex;
+  background-size: cover;
+  height: 600px;
+}
+
+.inner-div-left{
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0.5;
+}
+
+.inner-div-right{
+    background-image: url(../../Images/Hero_Section/hero.png);
+    background-size: cover;
+    flex: 0.5;
+}
+
+.logo{
+    height: 60px;
+    width: 50px;
+}
+
+.menu{
+    display: flex;
+    margin: 20px 50px 0px 0px;
+
+}
+
+.button{
+    color: white;
+    background-color: black;
+    padding: 10px 40px 10px 40px;
+    border-radius: 15px;
+    margin: 30px 0px 0px 100px;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: black;
+    background-color: white;
+    border-color: black;
+}
+
+.link1{
+    margin-left: 50px;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+.link1:hover{
+    color: white;
+    text-shadow: 1px 0 0 black, 0 -1px 0 black, 0 1px 0 black, -1px 0 0 black;
+}
+
+.par2{
+    color: white;
+    text-shadow: 1px 0 0 black, 0 -1px 0 black, 0 1px 0 black, -1px 0 0 black;
+}
+
+.par3{
+    margin-top: 15px;
+    padding: 0px 100px;
+    font-size: 20px;
+}
+
+h1{
+    padding: 30px 100px;
+    margin-top: 50px;
+    font-size: 60px;
+    line-height: 50px;
+}
