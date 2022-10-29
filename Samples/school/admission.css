@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.body{
+    margin: 10px;
+}
+
+.header{
+    background-color: lightpink;
+    color: lightgoldenrodyellow;
+    padding: 5px;
+}
+
+.h1{
+    text-align: center;
+    margin: 10px 0px 5px 0px;
+}
+
+.h1:hover{
+    color: goldenrod;
+    text-shadow: 1px 0 0 black, 0 -1px 0 black, 0 1px 0 black, -1px 0 0 black;
+    text-decoration: underline;
+}
+
+.h3{
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+}
+
+.h3:hover{
+    color: goldenrod;
+    text-shadow: 1px 0 0 black, 0 -1px 0 black, 0 1px 0 black, -1px 0 0 black;
+    text-decoration: underline;
+}
+
+.content1{
+    padding: 20px;
+    background-color: rgb(253, 246, 246);
+}
+
+#form1{
+    display: table;
+    color: white;
+    background-color: #2C8F77;
+    border: solid 2px black;
+    padding: 10px;
+
+}
+
+.row{
+    display: table-row;
+}
+
+.row label{
+    display: table-cell;
+    padding: 2px;
+    text-align: right;
+}
+
+.row input{
+    display: table-cell;
+    padding: 2px;
+}
